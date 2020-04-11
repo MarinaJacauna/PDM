@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Principal">
+
+    <Button
+        android:id="@+id/cad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:drawableLeft="@drawable/data_add"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:text="Cadastrar"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/con"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cad"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/data_find"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:text="Consultar"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/alt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/con"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/data_edit"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:text="Alterar"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/apa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alt"
+        android:drawableLeft="@drawable/data_delete"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:text="Apagar"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/apa"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/tables"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:text="Listar todos"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/sobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/user"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:text="Sobre"
+        android:textSize="18sp" />
+</RelativeLayout>
