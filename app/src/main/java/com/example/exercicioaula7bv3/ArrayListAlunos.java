@@ -54,13 +54,13 @@ class ArrayListAlunos {
 
     // alterar
 
-    static public boolean update(Aluno a) {
+    static public boolean update(Aluno a, Aluno b) {
 
         for (Aluno aluno : alunos) {
             if (aluno.getRgm().equalsIgnoreCase(a.getRgm())) {
 
                 int index = alunos.indexOf(a);
-                if(index > -1){ alunos.add(index,a); }
+                if(index > -1){ alunos.add(index,b); }
             }
 
         }
